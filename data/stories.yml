@@ -51,3 +51,8 @@ stories:
   - intent: thanks
   - action: utter_welcome
 
+- story: User asks for delivery types
+  steps:
+  - intent: delivery_types
+  - action: utter_list_delivery_types
+

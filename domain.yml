@@ -9,6 +9,7 @@ intents:
   - delivery_details_enquiring
   - refund_wanting
   - refund_status_check
+  - delivery_types
   - thanks
 
 responses:
@@ -49,8 +50,8 @@ responses:
   utter_refund_status:
   - text: "Here is your refund status: processing"
 
-  utter_list_deliverytypes:
-  - text: "Sure! We offer three delivery types for the customers: Express, Standard and Free"
+  utter_list_delivery_types:
+  - text: "Sure! We offer three delivery types for the customers: \n1. Express \n 2.Standard \n3. Free"
 
 
 session_config:

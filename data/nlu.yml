@@ -11,6 +11,8 @@ nlu:
     - good evening
     - mornin
     - hey there
+    - whats up?
+    - wassup
     - let's go
     - hey dude
     - goodmorning
@@ -88,6 +90,15 @@ nlu:
     - refund done?
     - done with redund status
     - status check
+
+
+- intent: delivery_types
+  examples: |
+    - I want to know about the different delivery types you offer
+    - multiple delivery types?
+    - delivery models
+    - different models of delivery types
+    - multiple delivery models?
 
 - intent: thanks
   examples: | 
