@@ -49,6 +49,9 @@ responses:
   utter_refund_status:
   - text: "Here is your refund status: processing"
 
+  utter_list_deliverytypes:
+  - text: "Sure! We offer three delivery types for the customers: Express, Standard and Free"
+
 
 session_config:
   session_expiration_time: 60
