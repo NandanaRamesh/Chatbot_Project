@@ -1,0 +1,21 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'Welcome' when user thanks
+  steps:
+    - intent: thanks
+    - action: utter_welcome
+
+- rule: Provide contact information when user asks for it
+  steps:
+  - intent: contacts
+  - action: utter_contacts
+
+
+

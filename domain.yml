@@ -1,0 +1,55 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - contacts
+  - delivery_details_enquiring
+  - refund_wanting
+  - refund_status_check
+  - thanks
+
+responses:
+  utter_greet:
+  - text: "Hi! How may I help you?"
+
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_goodbye:
+  - text: "Bye! Have a great day!"
+  - text: "Goodbye :)"
+  - text: "Bye!"
+
+  utter_contacts:
+  - text: "Sure! Here is the customer service contact number: 0000000000 and here is the customer service email: exampleemail@gmail.com"
+
+  utter_glad:
+  - text: "Glad I could help!"
+  - text: "I'm glad I could help!"
+
+  utter_sorry:
+  - text: "I'm sorry, shall we try again?"
+
+  utter_delivery_info:
+  - text: "Sure, here are your delivery details: Customer name: xxxxx yyyyy; Latest Delivery Time: xx:xx _.m"
+
+  utter_welcome:
+  - text: "You're welcome!"
+
+  utter_more_help:
+  - text: "Would you like help with anything else?"
+
+  utter_refund_proceed:
+  - text: "Sure! I have started processing your refund"
+
+  utter_refund_status:
+  - text: "Here is your refund status: processing"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

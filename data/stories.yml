@@ -1,0 +1,53 @@
+version: "3.1"
+
+stories:
+
+- story: greetings
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: User says thanks
+  steps:
+  - intent: thanks
+  - action: utter_welcome
+
+
+- story: User asks for contact details
+  steps:
+  - intent: contacts
+  - action: utter_contacts
+
+
+- story: User asks for delivery details 1
+  steps:
+  - intent: delivery_details_enquiring
+  - action: utter_delivery_info
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - action: utter_more_help
+
+- story: User asks for delivery details 3
+  steps:
+  - intent: delivery_details_enquiring
+  - action: utter_delivery_info
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_more_help
+
+- story: User asks for refund
+  steps:
+  - intent: refund_wanting
+  - action: utter_refund_proceed
+  - intent: thanks
+  - action: utter_welcome
+
+- story: User asks for refund status
+  steps:
+  - intent: refund_status_check
+  - action: utter_refund_status
+  - intent: thanks
+  - action: utter_welcome
+

@@ -1,0 +1,99 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - mornin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - Yes!
+    - yes
+    - yes thank you!
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - No that's not what I'm looking for
+    - nope
+    - not exactly
+    - not really
+  
+
+- intent: contacts
+  examples: |
+    - customer support number
+    - contact number
+    - customer service
+    - customer service email 
+    - contact email
+    - contact details 
+
+- intent: delivery_details_enquiring
+  examples: |
+    - enquire about delivery 
+    - delivery problems 
+    - problems with delivery 
+    - item delivery details 
+    - delivered item details 
+    - delivered item problems 
+
+- intent: refund_wanting
+  examples: |
+    - I want a refund
+    - I would like a refund for my order
+    - order refund wanted
+
+- intent: refund_status_check
+  examples: |
+    - I would like to check my refund status
+    - status for refund
+    - refunded or not?
+    - did my refund go through?
+    - refund done?
+    - done with redund status
+    - status check
+
+- intent: thanks
+  examples: | 
+    - Thank you
+    - Thank you so much
+    - Thanks
+    - thank you 
+    - thanks
+    - many thanks
