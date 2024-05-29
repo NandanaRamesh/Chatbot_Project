@@ -100,6 +100,15 @@ nlu:
     - different models of delivery types
     - multiple delivery models?
 
+- intent: delivery_duration
+  examples: |
+    - I want to know the different delivery durations
+    - what are the duration differences?
+    - what are the times of those delivery types?
+    - how different is the durations in the different delivery types
+    - how much time does each type take?
+    - how long will each delivery type take?
+
 - intent: thanks
   examples: | 
     - Thank you

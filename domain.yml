@@ -10,6 +10,7 @@ intents:
   - refund_wanting
   - refund_status_check
   - delivery_types
+  - delivery_duration
   - thanks
 
 responses:
@@ -45,13 +46,16 @@ responses:
   - text: "Would you like help with anything else?"
 
   utter_refund_proceed:
-  - text: "Sure! I have started processing your refund"
+  - text: "I have started processing your refund"
 
   utter_refund_status:
   - text: "Here is your refund status: processing"
 
   utter_list_delivery_types:
-  - text: "Sure! We offer three delivery types for the customers: \n1. Express \n 2.Standard \n3. Free"
+  - text: "We offer three delivery types for the customers: \n1. Express \n2.Standard \n3. Free"
+
+  utter_delivery_duration:
+  - text: "Express: 1-2 days\nStandard: 3-5 days\nFree: 6-9 days"
 
 
 session_config:

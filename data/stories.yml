@@ -23,36 +23,25 @@ stories:
   steps:
   - intent: delivery_details_enquiring
   - action: utter_delivery_info
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_glad
-  - action: utter_more_help
 
-- story: User asks for delivery details 3
-  steps:
-  - intent: delivery_details_enquiring
-  - action: utter_delivery_info
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_sorry
-  - action: utter_more_help
 
 - story: User asks for refund
   steps:
   - intent: refund_wanting
   - action: utter_refund_proceed
-  - intent: thanks
-  - action: utter_welcome
 
 - story: User asks for refund status
   steps:
   - intent: refund_status_check
   - action: utter_refund_status
-  - intent: thanks
-  - action: utter_welcome
 
 - story: User asks for delivery types
   steps:
   - intent: delivery_types
   - action: utter_list_delivery_types
+
+- story: User asks for delivery duration
+  steps:
+  - intent: delivery_duration
+  - action: utter_delivery_duration
 
